@@ -1,0 +1,12 @@
+.tutorial {
+    color: rgb(2, 31, 136);
+}
+
+.tutorial p {
+    margin: 1rem;
+}
+
+.tutorial img {
+    max-width: 500px;
+    margin: 1rem;
+}
