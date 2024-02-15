@@ -18,19 +18,21 @@ export default function SetupPage() {
       <TableOfContents headings={headings} />
 
       <div className={styles.tutorial}>
-        <Title text="Installing Node.js" variant="sub-title"></Title>
-        <p>
-          First you have to Download Node.js from{" "}
-          <span>
-            <Link href="https://nodejs.org/en">Node.js</Link>
-          </span>
-        </p>
-        <img src="/download-node-js-image.png" alt="Node.js Downloading Image" />
-        <p>
-          After you've done that run the Node.js Setup. And Open the Terminal
-          Windows or VS Code and Type
-        </p>
-        <CommandContainer text="node --version" />
+            <Title text="Installing Node.js" variant="sub-title"></Title>
+            <p>
+              First you have to Download Node.js from{" "}
+              <span>
+                <Link href="https://nodejs.org/en">Node.js</Link>
+              </span>
+            </p>
+            <img src="/download-node-js-image.png" alt="Node.js Downloading Image" />
+            <p>
+              After you've done that run the Node.js Setup. And Open the Terminal
+              Windows or VS Code and Type: <CommandContainer text="node --version" showCopyButton={true}/>
+              to check if its Installed.
+              The Output should look something like this:
+              <CommandContainer text="v20.11.1 [depends on Version]"></CommandContainer>
+            </p>
       </div>
     </div>
   );
