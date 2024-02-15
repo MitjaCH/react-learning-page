@@ -1,8 +1,25 @@
 import Link from "next/link";
 import Head from "next/head";
 import "../styles/_app.css";
+import { useEffect, useState } from "react";
 
 export default function App({ Component, pageProps }) {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled)
+      console.log("Scrolled")
+    }
+
+  window.addEventListener('scroll', handleScroll);
+
+  return () => {
+    window.removeEventListener('scroll', handleScroll)
+  };
+}, []);
+
   return (
     <div>
       <Head>
