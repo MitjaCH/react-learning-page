@@ -8,7 +8,7 @@ export default function IndexPage() {
 
     return (
         <div className={styles.index}>
-            <Title text="Welcome to the Home Page!" variant="default"></Title>
+            <Title text="HOME" variant="default"></Title>
 
             <Title text="Info" variant="sub-title"></Title>
             <p>This Website is completly written in React.js & Next.js</p>

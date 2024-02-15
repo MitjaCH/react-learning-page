@@ -13,7 +13,7 @@ export default function SetupPage() {
 
   return (
     <div className={styles.setup}>
-      <Title text="Welcome to the Setup Page!" variant="default"></Title>
+      <Title text="SETUP" variant="default"></Title>
       <TableOfContents headings={headings} />
 
       <div className={styles.tutorial}>

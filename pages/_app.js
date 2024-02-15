@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>React.js / Next.js Learning</title>
+        <title>React Learning | By MitjaCH & nxkzty</title>
       </Head>
 
       <header>
