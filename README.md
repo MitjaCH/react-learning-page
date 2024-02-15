@@ -4,7 +4,7 @@ Welcome to the React Learning Page! This website is a project by [nxkzty](https:
 
 ## About
 
-This project is aimed at helping beginners learn React.js with the aid of Next.js and HTML. Whether you're just starting out with React or looking to deepen your understanding, this learning page provides simple examples and explanations to get you up and running.
+This project is aimed at helping beginners learn React.js with the aid of Next.js and HTML. Whether you're just starting out with React or looking to deepen your understanding, this learning page provides simple examples and explanations to get you up and running.<br> Keep in mind that me (Mitjach) & nxkzty are also still learning React.js so this is still a W.I.P. :)
 
 ## How to Use
 
