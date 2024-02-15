@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/tableOfContents.module.csss'
+import styles from '../styles/tableOfContents.module.css'
 
 function TableOfContents({ headings }) {
   return (
