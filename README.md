@@ -9,9 +9,7 @@ This project is aimed at helping beginners learn React.js with the aid of Next.j
 ## How to Use
 
 1. **Clone the Repository:** Begin by cloning this repository to your local machine:
-    ```
-    git clone https://github.com/nxkzty/react-learning-page.git
-
+    ``` bash
     git clone https://github.com/mitjach/react-learning-page.git
     ```
 
@@ -22,7 +20,7 @@ This project is aimed at helping beginners learn React.js with the aid of Next.j
     ```
 
 3. **Run the Development Server:** Start the development server to preview the website locally:
-    ```
+    ``` bash
     npm run dev
     ```
 
