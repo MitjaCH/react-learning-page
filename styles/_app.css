@@ -5,13 +5,29 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar {
+nav {
     background-color: rgb(6, 130, 253);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     height: 4rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(2, 31, 136);
 }
 
 .title {

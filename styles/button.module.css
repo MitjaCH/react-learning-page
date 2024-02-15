@@ -1,0 +1,43 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.3s;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100px;
+    max-height: 50px;
+    height: auto;
+    width: auto;
+    margin: 1rem;
+}
+
+.default {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+.success {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.danger {
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+.warning {
+    background-color: #ff9800;
+    color: #ffffff;
+}
+
+.info {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.button:hover {
+    scale: 105%;
+}

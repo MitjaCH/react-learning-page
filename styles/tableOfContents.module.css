@@ -1,0 +1,29 @@
+.tableOfContents {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    margin-bottom: 5px;
+  }
+  
+  .link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
