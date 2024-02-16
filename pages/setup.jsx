@@ -25,7 +25,7 @@ export default function SetupPage() {
             <Link href="https://nodejs.org/en" target="_blank">[Node.js]</Link>
           </span>
         </p>
-        <img src="/download-node-js-image.png" alt="Node.js Downloading Image" />
+        <img src="/node-download-image.png" alt="Node.js Download Image" />
         <p>
           Once the download is complete, run the Node.js Setup. Then, open the Terminal or VS Code and type: 
         </p>
