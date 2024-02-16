@@ -45,6 +45,11 @@ export default function App({ Component, pageProps }) {
                 Project Structure
               </Link>
             </li>
+            <li>
+              <Link href="/components">
+                Components
+              </Link>
+            </li>
           </ul>
         </nav>
       </header>

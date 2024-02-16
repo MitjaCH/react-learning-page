@@ -24,6 +24,7 @@ nav {
 #nav-image {
   filter: invert(0);
   max-width: 250px;
+  margin: 1rem;
 }
 
 .navbar {
