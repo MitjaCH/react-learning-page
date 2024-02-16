@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }) {
 
       <header>
         <nav>
-          <h1 class="title">React.js Learning</h1>
+          <img id="nav-image"src="/react-learning-logo.svg"></img>
           <ul class="navbar">
             <li>
               <Link  href="/">
