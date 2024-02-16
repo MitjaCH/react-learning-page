@@ -68,17 +68,16 @@ header.scrolled {
   box-shadow: 2px 4px rgb(255, 0, 0);
 }
 
-img{
-    height: 50px;
-    margin: 10px;
-    filter: invert(1);
+.social-logo{
+  filter: invert(1);
+  height: 50px;
+  margin: 10px;
 }
 
 footer{
     background-color: rgb(6, 130, 253);
-    padding: 10px 20px;
+    padding: 10px 10px;
     height: 4rem;
     bottom: 0;
     left: 0;
-    position: sticky;  
 }
