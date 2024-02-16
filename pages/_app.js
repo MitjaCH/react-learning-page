@@ -54,7 +54,18 @@ export default function App({ Component, pageProps }) {
       </main>
 
       <footer>
-        <h1>Footer</h1>
+        <div>
+        <Link className="social-logo" href="https://discord.com/">
+          <img src="/discord-logo.svg" alt="discord" />
+        </Link>
+        <Link className="social-logo" href="https://instagram.com/leonh_sg">
+          <img src="/instagram-logo.svg" alt="instagram" />
+        </Link>
+        <Link className="social-logo" href="https://github.com/MitjaCH/react-learning-page.git">
+          <img src="/github-logo.svg" alt="github" />
+        </Link>
+
+        </div>
       </footer>
     </div>
   );

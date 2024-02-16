@@ -6,17 +6,17 @@ import Link from "next/link";
 
 export default function SetupPage() {
   const headings = [
-    { id: 'section1', title: 'Installing Node.js' },
-    { id: 'section2', title: 'Installing React.js & Next.js' },
-    { id: 'section3', title: 'Launching Server' },
-  ];
+    { id: 'section1', title: 'Installing Node.js' },                                    
+    { id: 'section2', title: 'Installing React.js & Next.js' },                                    
+    { id: 'section3', title: 'Launching Server' },                                    
+  ];                                    
 
-  return (
-    <div className={styles.setup}>
-      <Title text="SETUP" variant="default"></Title>
-      <TableOfContents headings={headings} />
+  return (                                    
+    <div className={styles.setup}>                                    
+      <Title text="SETUP" variant="default"></Title>                                    
+      <TableOfContents headings={headings} />                                    
 
-      <div className={styles.tutorial}>
+      <div className={styles.tutorial}>                                    
             <Title text="Installing Node.js" variant="sub-title"></Title>
             <p>
               First you have to Download Node.js from{" "}
